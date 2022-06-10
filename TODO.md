@@ -1,0 +1,5 @@
+- [ ] router
+- [ ] MOCK
+- [ ] eslint + prtter
+- [ ] axios
+- [ ] setupProxy

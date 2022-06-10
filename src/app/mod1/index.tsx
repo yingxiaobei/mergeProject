@@ -1,5 +1,6 @@
-import App from './pages/App';
 import { Helmet } from 'react-helmet';
+import { BrowserRouter } from 'react-router-dom';
+import Routers from './Router';
 
 export default function Mod1() {
   return (
@@ -7,7 +8,9 @@ export default function Mod1() {
       <Helmet>
         <title>Mod1</title>
       </Helmet>
-      <App />
+      <BrowserRouter>
+        <Routers />
+      </BrowserRouter>
     </>
   );
 }
